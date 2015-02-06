@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         NSMutableArray *items = [[NSMutableArray alloc] init];
         
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i < 10; i++) {
             BNRItem *item = [BNRItem randomItem];
             [items addObject:item];
         }
